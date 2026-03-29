@@ -1,0 +1,1 @@
+Affinity = Photoshop + Illustrator + InDesign
