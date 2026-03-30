@@ -14,6 +14,17 @@ Onno jaygay rakha:
 # Routing
 
 Voicemeeter (installed using WinGetUI)
+LatencyMon
+ASIO4ALL
+FlexASIO
+Muffon
+SongBook
+
+Not in UniGetUI (manual install):
+
+- FlexASIO GUI: https://github.com/flipswitchingmonkey/FlexASIO_GUI
+- LoopMIDI: https://www.tobias-erichsen.de/software/loopmidi.html
+- Protokol (MIDI monitor)
 
 # VST Plugins
 

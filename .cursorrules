@@ -1,0 +1,13 @@
+# Repository Rules for Cursor AI
+
+You are assisting with the "Windows 10 Setup Blueprint" repository. When generating content, you must strictly adhere to the following rules:
+
+1. **Table Standardization:** Whenever listing software in a README, use this exact 3-column markdown table format:
+   | Software | Install Method | What it does / Why I need it |
+
+2. **Linking Rules within Tables:**
+   - **Column 1 (Software):** If there is a local README or configuration folder for this specific software, the software name MUST be a markdown link pointing to that local directory. If no local config exists, bold the text.
+   - **Column 2 (Install Method):** Specify how the app is installed (e.g., UniGetUI, Scoop, PortableApps, or Manual). Append the drive footprint in parentheses, e.g., `UniGetUI (C)` or `PortableApps (D)`. If the method is "Manual", the word "Manual" MUST be a markdown hyperlink to the official download URL/website URL.
+   - **Column 3 (What/Why):** Keep descriptions under two sentences. Be direct.
+
+3. **No Redundant Documentation:** Do not write setup steps for software that can be easily Googled. Only document highly customized configurations, script backups, or specific required plugin dependencies.

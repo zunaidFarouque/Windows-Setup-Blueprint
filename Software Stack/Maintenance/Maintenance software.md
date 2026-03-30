@@ -1,1 +1,0 @@
-Krokiet - Data cleaner & Deduper

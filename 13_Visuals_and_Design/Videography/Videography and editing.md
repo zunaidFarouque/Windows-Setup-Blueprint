@@ -8,4 +8,6 @@ Davinci Resolve
 
 Other quick editors:
 
-look for editors installed using portableApps.com
+- Shutter Encoder
+- Videomass
+- look for editors installed using portableApps.com
