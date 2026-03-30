@@ -1,7 +1,14 @@
-# Debugging
+## Debugging
 
-- DebugView: useful software that catches the DBG messages by native software. installed using PortableApps.com
+| Software      | Install Method | What it does / Why I need it                                  |
+| ------------- | -------------- | ------------------------------------------------------------- |
+| **DebugView** | PortableApps   | Captures native Windows debug output (DBG/OutputDebugString). |
 
-# Diffing
+## Diffing
 
-- WinMerge: windows native. works good with the combination of copyQ. look winmerge configuration guide here: . Look for copyQ setup here: [CopyQ Guide](../../../docs/CopyQ/copyq.md)
+| Software     | Install Method | What it does / Why I need it                        |
+| ------------ | -------------- | --------------------------------------------------- |
+| **WinMerge** | UniGetUI       | Native Windows file/folder diff and merge workflow. |
+
+WinMerge works well with CopyQ in my workflow.  
+CopyQ setup guide: [CopyQ Guide](../../../docs/CopyQ/copyq.md)

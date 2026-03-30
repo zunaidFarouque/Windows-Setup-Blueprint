@@ -1,20 +1,39 @@
-# TODO
+## Learning
 
-TODO: Add Latex Words
+| Software          | Install Method                                      | What it does / Why I need it                          |
+| ----------------- | --------------------------------------------------- | ----------------------------------------------------- |
+| **Anki**          | [UniGetUI (D)](https://apps.ankiweb.net/?download=) | Spaced-repetition flashcards for long-term memory.    |
+| **Brilliant.org** | [Android/Online](https://brilliant.org/)            | Interactive courses to learn STEM topics by practice. |
 
-# Learning
+## Research
 
-Anki
+| Software   | Install Method                                   | What it does / Why I need it                                       |
+| ---------- | ------------------------------------------------ | ------------------------------------------------------------------ |
+| **Zotero** | [UniGetUI (D)](https://www.zotero.org/downloads) | Reference manager for collecting, citing, and organizing research. |
 
-# Research
+### TODO
 
-Zotero
+Add LaTeX Works (mostly Quarto Setup).
 
-# Reading Books
+## Figure Plotting & Notebooks
 
-I mostly prefer Epub files for reading. they support reflow of text so no matter I read in laptop or phone, I can read with proper formatting.
-I like Calibre reader. installed using PortableApps.com
+| Software         | Install Method                               | What it does / Why I need it                    |
+| ---------------- | -------------------------------------------- | ----------------------------------------------- |
+| **LabPlot2**     | UniGetUI (D)                                 | Interactive plotting/analysis for figures.      |
+| **Google Colab** | [Online](https://colab.research.google.com/) | Cloud notebooks for Python-based visualization. |
 
-# High detail interactive math and word processing
+Python libraries I use in Colab for Plotting: Altair, Seaborn, PlotNine.
 
-Blockpad
+## High Detail Interactive Math & Writing
+
+| Software     | Install Method                                | What it does / Why I need it                        |
+| ------------ | --------------------------------------------- | --------------------------------------------------- |
+| **Blockpad** | [Manual](https://blockpad.net/pages/download) | Interactive math + word processing in one workflow. |
+
+## Reading Books
+
+I mostly prefer EPUB files for reading; they support text reflow so formatting stays readable on laptop or phone.
+
+| Software    | Install Method | What it does / Why I need it           |
+| ----------- | -------------- | -------------------------------------- |
+| **Calibre** | PortableApps   | E-book library management and reading. |

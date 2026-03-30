@@ -1,3 +1,0 @@
-X360CE
-
-HIDHide
