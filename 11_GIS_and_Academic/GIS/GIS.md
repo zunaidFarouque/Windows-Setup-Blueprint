@@ -13,7 +13,7 @@
 ## Automation / Scripts
 
 For submitting multiple GEE tasks sequentially, I use a custom AHK script created with PMC:  
-[GEE run all.pmc folder](../../../My-Macros/Old but useful ones/Gee/)
+[GEE run all.pmc folder](../../../My-Macros/Old_but_useful_ones/Gee/)
 
 ## Additional Tools Under Exploration
 

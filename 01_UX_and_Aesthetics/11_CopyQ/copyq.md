@@ -50,7 +50,7 @@ To instantly compare your last two clipboard entries using WinMerge and CopyQ:
 
 1. **Install WinMerge**  
    It’s recommended to install [WinMerge](https://winmerge.org/) using PortableApps.com for portability.
-   configure according to the guide here: [DIFF: Compare and merge](<../../Software Stack/my UX/Typing.md#diff-compare-and-merge>)
+  configure according to the guide here: DIFF: Compare and merge
 
 2. **Open CopyQ Commands Window**
    - Launch CopyQ.
