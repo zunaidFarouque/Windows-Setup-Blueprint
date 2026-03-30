@@ -12,7 +12,7 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
 
 1. **Core environment (baseline + updates)**
    - [Install software with WinUtil](00_Core_Environment/01_Install_software_with_WinUtil.md)
-   - [Install software (UniGetUI + System)](00_Core_Environment/02_Install_software_(UniGetUI_+_System).md)
+   - [Install software (UniGetUI + System)](<00_Core_Environment/02_Install_software_(UniGetUI_and_System).md>)
    - [Windhawk tweaks](00_Core_Environment/11_Windhawk/windhawk.md)
 2. **UX and aesthetics**
    - [UX and Aesthetics software hub](01_UX_and_Aesthetics/Software.md) — typing/text workflow, desktop tools, social media apps, and more.
@@ -57,4 +57,3 @@ All links above are **relative paths inside this repo**, so they work both on:
 - The GitHub Pages project site (project README renders as the landing page, and links drill into the same markdown files).
 
 Use this `readme.md` as the starting index and follow links into each numbered folder for detailed setup instructions.
-
