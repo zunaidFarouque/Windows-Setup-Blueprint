@@ -45,23 +45,46 @@ You can use both; just avoid assuming one tool’s saved list opens cleanly in t
 - Cloudflare warp
 - Faststone Image Viewer
 - Avro Keyboard
-- stardesk
+- Stardesk
 - Everything
-- MPC BE
 - WinRAR
 - Notepad++
 - TeraCopy
-- FastCopy
+
+## Player
+
+- MPC BE
+- VLC
 
 ## System
 
+- Eartrumpet
+- FFmpeg
+- K-Lite codec pack
+- LAV Filters
 - ContextMenuManager
 - Easy context menu
 - Custom Resolution Utility
+- Nearby share / Quick share
 
 ## UI
 
 - Rainmeter ([Guide for my Setup](../../docs/Rainmeter/Rainmeter.md))
+
+## UX
+
+- Powertoys
+- Notepad++
+- Winmerge
+- Windhawk
+- Typeless
+- EverythingCmdPal
+- Kando
+- CopyQ
+- WiseCleaner (<= search this):
+  - program uninstaller
+  - auto shutdown
+  - ! duplicate finder
 
 ## Maintenance
 
@@ -87,3 +110,14 @@ You can use both; just avoid assuming one tool’s saved list opens cleanly in t
 - FlexASIO
 - ! FlexASIO GUI: https://github.com/flipswitchingmonkey/FlexASIO_GUI
 - ! LoopMIDI: https://www.tobias-erichsen.de/software/loopmidi.html
+- ! Protokol (MIDI monitor)
+- Muffon
+- SongBook
+
+## Educational
+
+- Zotero
+
+## Other
+
+- Microsoft to do

@@ -14,3 +14,7 @@ Zotero
 
 I mostly prefer Epub files for reading. they support reflow of text so no matter I read in laptop or phone, I can read with proper formatting.
 I like Calibre reader. installed using PortableApps.com
+
+# High detail interactive math and word processing
+
+Blockpad

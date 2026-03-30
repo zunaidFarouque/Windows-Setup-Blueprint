@@ -1,3 +1,11 @@
 Giglad
+Gig Performer
+VST Live
 
-musical accompaniment
+Chataigne
+
+## Other
+
+TaalMala
+
+TODO: musical accompaniment software list

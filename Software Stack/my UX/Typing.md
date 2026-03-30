@@ -1,6 +1,7 @@
 # Typing
 
 I use WhisperTyping because of its generous free tier.
+Another option that automatically fixes the text to proper formatting is typeless (installed with UniGetUI)
 
 # Clipboard
 

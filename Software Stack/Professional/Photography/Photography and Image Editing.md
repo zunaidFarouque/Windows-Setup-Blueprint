@@ -1,6 +1,7 @@
 Affinity = Photoshop + Illustrator + InDesign
 
 Main Photo editing for photography: adobe Lightroom
+Main Photo Culling for photography: Narrative Select
 
 # Automation
 
