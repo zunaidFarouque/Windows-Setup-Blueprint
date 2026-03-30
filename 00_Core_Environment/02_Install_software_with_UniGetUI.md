@@ -34,20 +34,3 @@ Go to UniGetUI Settings and install/enable anything needed to activate WinGet, C
 | **DirectX End-User Runtimes (Jun 2010)**  | [Manual](https://www.microsoft.com/en-us/download/details.aspx?id=8109)     | Legacy DirectX components for older apps/games. |
 | **.NET Desktop Runtime (latest)**         | [Manual](https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime) | Required by many modern Windows desktop apps.   |
 | **IObit Driver Booster**                  | [Manual (D)](https://www.iobit.com/en/driver-booster.php)                   | Quick driver + “game components” install.       |
-
----
-
-## After this: Winscript (system tweaks and setup script)
-
-Run [winscript](https://github.com/flick9000/winscript) (**admin required**):
-
-```powershell
-irm "https://winscript.cc/irm" | iex
-```
-
-- This runs the winscript one-liner. It loads a system optimization and setup interface with various tweaks, updates, and optional installs. Review the options and apply what you need.
-
-### Optimizers & hardening
-
-(If not available in Portable apps folder) Download Optimizer manually: [https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe](https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe)
-It provides quick privacy settings, debloating, and system performance tweaks.

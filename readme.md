@@ -1,4 +1,4 @@
-﻿# Windows 10 Setup Blueprint
+# Windows 10 Setup Blueprint
 
 A comprehensive, organized repository of runbooks, settings, scripts, and software lists to rebuild a Windows 10 environment from scratch.
 
@@ -12,7 +12,8 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
 
 1. **Core environment (baseline + updates)**
    - [Install software with WinUtil](00_Core_Environment/01_Install_software_with_WinUtil.md)
-   - [Install software (UniGetUI + System)](<00_Core_Environment/02_Install_software_(UniGetUI_and_System).md>)
+   - [Install software (UniGetUI)](00_Core_Environment/02_Install_software_with_UniGetUI.md)
+   - [Optimizations & tweaks](00_Core_Environment/03_optimizations_and_tweaks.md)
    - [Windhawk tweaks](00_Core_Environment/11_Windhawk/windhawk.md)
 2. **UX and aesthetics**
    - [UX and Aesthetics software hub](01_UX_and_Aesthetics/Software.md) — typing/text workflow, desktop tools, social media apps, and more.
