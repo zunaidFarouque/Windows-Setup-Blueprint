@@ -1,6 +1,6 @@
-# Install software (UniGetUI + System) — fast runbook
+﻿# Install software (UniGetUI + System) — fast runbook
 
-Run this after WinUtil: [01 Install software with WinUtil.md](01%20Install%20software%20with%20WinUtil.md)
+Run this after WinUtil: [01 Install software with WinUtil.md](01_Install_software_with_WinUtil.md)
 
 ## First-run setup
 
@@ -28,7 +28,7 @@ Go to UniGetUI Settings and install/enable anything needed to activate WinGet, C
 | **CopyTrans HEIC**                        | [Manual](https://www.copytrans.net/copytransheic/)                          | HEIC/HEIF support in Windows Explorer/apps.     |
 | **_🔶 Display & shell_**                  |                                                                             |                                                 |
 | **EarTrumpet**                            | UniGetUI                                                                    | Per-app audio control.                          |
-| [Windhawk](11%20Windhawk/windhawk.md)     | UniGetUI                                                                    | Windows UI tweaks via mods.                     |
+| [Windhawk](11_Windhawk/windhawk.md)     | UniGetUI                                                                    | Windows UI tweaks via mods.                     |
 | **_🔶 Core runtimes / deps_**             |                                                                             |                                                 |
 | **VC++ Redistributables (AIO)**           | [Manual](https://github.com/abbodi1406/vcredist/releases)                   | One-shot install of common VC++ runtimes.       |
 | **DirectX End-User Runtimes (Jun 2010)**  | [Manual](https://www.microsoft.com/en-us/download/details.aspx?id=8109)     | Legacy DirectX components for older apps/games. |
@@ -51,3 +51,4 @@ irm "https://winscript.cc/irm" | iex
 
 (If not available in Portable apps folder) Download Optimizer manually: [https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe](https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe)
 It provides quick privacy settings, debloating, and system performance tweaks.
+
