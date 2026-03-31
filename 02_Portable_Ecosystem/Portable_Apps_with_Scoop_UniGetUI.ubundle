@@ -9,13 +9,6 @@
       "ManagerName": "Scoop"
     },
     {
-      "Id": "SolfegePortable",
-      "Name": "SolfegePortable",
-      "Version": "3.22.2_Rev_2",
-      "Source": "scoop_UGU",
-      "ManagerName": "Scoop"
-    },
-    {
       "Id": "WiseProgramUninstaller",
       "Name": "WiseProgramUninstaller",
       "Version": "3.1.4.257",
@@ -408,6 +401,13 @@
       "ManagerName": "Scoop"
     },
     {
+      "Id": "winmerge",
+      "Name": "Winmerge",
+      "Version": "2.16.54.2",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
       "Id": "wiztree",
       "Name": "Wiztree",
       "Version": "4.31",
@@ -423,5 +423,12 @@
     }
   ],
   "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC) or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
-  "incompatible_packages": []
+  "incompatible_packages": [
+    {
+      "Id": "SolfegePortable",
+      "Name": "SolfegePortable",
+      "Version": "3.22.2_Rev_2",
+      "Source": "scoop_UGU"
+    }
+  ]
 }
