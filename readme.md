@@ -16,9 +16,12 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
    - [Optimizations & tweaks](00_Core_Environment/03_optimizations_and_tweaks.md)
    - [Windhawk tweaks](00_Core_Environment/11_Windhawk/windhawk.md)
 2. **UX and aesthetics**
-   - [UX and Aesthetics software hub](01_UX_and_Aesthetics/Software.md) — typing/text workflow, desktop tools, social media apps, and more.
-3. **Portable ecosystem**
-   - [Portable ecosystem overview](02_Portable_Ecosystem/Portable_Ecosystem.md)
+   - [UX and Aesthetics software hub](01_UX_and_Aesthetics/Software.md) — unified hub for UX-facing tools and links to specialized setup guides.
+   - [Portable ecosystem quick start](01_UX_and_Aesthetics/10_Portable_Ecosystem/Portable_Ecosystem.md)
+   - [CopyQ setup](01_UX_and_Aesthetics/11_CopyQ/copyq.md)
+   - [foobar2000 setup](01_UX_and_Aesthetics/12_Foobar_&_Deskband_Controls/1._foobar2000_Setup.md)
+   - [Foobar deskband / tray mode](01_UX_and_Aesthetics/12_Foobar_&_Deskband_Controls/2._How_to_make_it_in_tray.md)
+   - [FB Messenger setup](01_UX_and_Aesthetics/13_FB_Messenger/fb_messenger.md)
 4. **Domain‑specific stacks (by folder)**
    - `11_GIS_and_Academic/`:
      - [Academic / research software](11_GIS_and_Academic/Academic/Academic_software.md)
@@ -41,8 +44,7 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
 ## Repository map (high level)
 
 - `00_Core_Environment/` – Baseline OS setup, WinUtil runbook, UniGetUI/system installs, and Windhawk configs.
-- `01_UX_and_Aesthetics/` – UX tools, media listening, social apps, CopyQ, Foobar/Deskband, and other desktop enhancements.
-- `02_Portable_Ecosystem/` – Portable apps and workflows that can move between machines.
+- `01_UX_and_Aesthetics/` – UX hub, portable ecosystem quick start, CopyQ, Foobar/Deskband, Messenger, and other desktop enhancements.
 - `11_GIS_and_Academic/` – GIS, mapping, and academic/research software stacks.
 - `12_Audio_and_VJ/` – Music production, live performance, and VJ/VFX tools.
 - `13_Visuals_and_Design/` – Photography, videography, design, and architecture workflows.

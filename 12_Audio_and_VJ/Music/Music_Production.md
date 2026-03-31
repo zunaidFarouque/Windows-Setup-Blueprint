@@ -90,3 +90,4 @@ TODO: Add VST Plugins (still incomplete)
 | --------------- | -------------- | ------------------------------------------ |
 | **MuseScore**   | scoop_UGU      | Music notation editing and score playback. |
 | **GNU Solfege** | scoop_UGU      | Ear training for intervals and pitch.      |
+| **SolfegePortable** | scoop_UGU  | Portable ear-training and sight-singing practice toolkit. |

@@ -81,10 +81,37 @@ If you reinstalled Windows but your `D:\_installed\scoop` folder is still intact
    . $PROFILE
    ```
 
+# UniGetUI Bundles for Quick Start
+
+Quickly import baseline environments in UniGetUI using these curated bundles:
+
+- [Absolute Core.ubundle](02_UniGetUI_Bundles/Absolute%20Core.ubundle)
+- [Secondary Core.ubundle](02_UniGetUI_Bundles/Secondary%20Core.ubundle)
+
+These bundles cover the non-runtime app set for quick start.
+
+The core runtime items still need manual installation:
+
+- [VC++ Redistributables (AIO)](https://github.com/abbodi1406/vcredist/releases)
+- [DirectX End-User Runtimes (Jun 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
+- [.NET Desktop Runtime (latest)](https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime)
+- [IObit Driver Booster](https://www.iobit.com/en/driver-booster.php)
+
+Extra Manual-install assets are: [`03_Manual_Install/installme.rar`](../03_Manual_Install/installme.rar), [`03_Manual_Install/installme2.rar`](../03_Manual_Install/installme2.rar).
+
+Windhawk backup assets: [`11_Windhawk/Windhawk_Latest_Backup.zip`](11_Windhawk/Windhawk_Latest_Backup.zip); and a guide on how to backup/restore: [`11_Windhawk/windhawk.md`](11_Windhawk/windhawk.md), .
+
+If bundle import does not work, use the detailed list below to install items individually.
+
 # Things to install (UniGetUI + manual system tools)
 
 | Software                                  | Install Method                                                              | What it does / Why I need it                               |
 | ----------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **_🔶 Core runtimes / deps_**             |                                                                             |                                                            |
+| **VC++ Redistributables (AIO)**           | [Manual](https://github.com/abbodi1406/vcredist/releases)                   | One-shot install of common VC++ runtimes.                  |
+| **DirectX End-User Runtimes (Jun 2010)**  | [Manual](https://www.microsoft.com/en-us/download/details.aspx?id=8109)     | Legacy DirectX components for older apps/games.            |
+| **.NET Desktop Runtime (latest)**         | [Manual](https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime) | Required by many modern Windows desktop apps.              |
+| **IObit Driver Booster**                  | [Manual (D)](https://www.iobit.com/en/driver-booster.php)                   | Quick driver + “game components” install.                  |
 | **_🔶 Core defaults_**                    |                                                                             |                                                            |
 | **Cloudflare WARP**                       | UniGetUI                                                                    | VPN/DNS for blocked/bad networks.                          |
 | **Avro Keyboard**                         | UniGetUI                                                                    | Bangla typing.                                             |
@@ -105,8 +132,3 @@ If you reinstalled Windows but your `D:\_installed\scoop` folder is still intact
 | **_🔶 Display & shell_**                  |                                                                             |                                                            |
 | **EarTrumpet**                            | UniGetUI                                                                    | Per-app audio control.                                     |
 | [Windhawk](11_Windhawk/windhawk.md)       | UniGetUI                                                                    | Windows UI tweaks via mods.                                |
-| **_🔶 Core runtimes / deps_**             |                                                                             |                                                            |
-| **VC++ Redistributables (AIO)**           | [Manual](https://github.com/abbodi1406/vcredist/releases)                   | One-shot install of common VC++ runtimes.                  |
-| **DirectX End-User Runtimes (Jun 2010)**  | [Manual](https://www.microsoft.com/en-us/download/details.aspx?id=8109)     | Legacy DirectX components for older apps/games.            |
-| **.NET Desktop Runtime (latest)**         | [Manual](https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime) | Required by many modern Windows desktop apps.              |
-| **IObit Driver Booster**                  | [Manual (D)](https://www.iobit.com/en/driver-booster.php)                   | Quick driver + “game components” install.                  |

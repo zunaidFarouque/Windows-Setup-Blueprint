@@ -1,0 +1,441 @@
+{
+  "export_version": 3,
+  "packages": [
+    {
+      "Id": "7zip",
+      "Name": "7zip",
+      "Version": "26.00",
+      "Source": "main",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "WiseProgramUninstaller",
+      "Name": "WiseProgramUninstaller",
+      "Version": "3.1.4.257",
+      "Source": "DEV-tools",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "XP8C6QGSG6TBKC",
+      "Name": "WiseCleaner Auto Shutdown",
+      "Version": "2.11",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "audacity",
+      "Name": "Audacity",
+      "Version": "3.7.7",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "autoruns",
+      "Name": "Autoruns",
+      "Version": "14.11",
+      "Source": "sysinternals",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "bleachbit",
+      "Name": "Bleachbit",
+      "Version": "5.0.2",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "caesium-image-compressor",
+      "Name": "Caesium Image Compressor",
+      "Version": "2.8.5",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "calibre",
+      "Name": "Calibre",
+      "Version": "9.6.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "ccleaner",
+      "Name": "Ccleaner",
+      "Version": "6.39.11548",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "context-menu-manager",
+      "Name": "Context Menu Manager",
+      "Version": "3.3.3.1",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "cpu-z",
+      "Name": "Cpu Z",
+      "Version": "2.19",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "cru",
+      "Name": "Cru",
+      "Version": "1.5.3",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "crystaldiskinfo",
+      "Name": "Crystaldiskinfo",
+      "Version": "9.8.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "dark",
+      "Name": "Dark",
+      "Version": "3.14.1",
+      "Source": "main",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "darktable",
+      "Name": "Darktable",
+      "Version": "5.4.1",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "debugview",
+      "Name": "Debugview",
+      "Version": "5.0",
+      "Source": "sysinternals",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "detect-it-easy",
+      "Name": "Detect It Easy",
+      "Version": "3.10",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "digikam",
+      "Name": "Digikam",
+      "Version": "9.0.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "easy-context-menu",
+      "Name": "Easy Context Menu",
+      "Version": "1.6",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "espanso",
+      "Name": "Espanso",
+      "Version": "2.3.0",
+      "Source": "main",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "file-converter",
+      "Name": "File Converter",
+      "Version": "2.2",
+      "Source": "third",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "firewallappblocker",
+      "Name": "Firewallappblocker",
+      "Version": "1.9",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "freepiano",
+      "Name": "Freepiano",
+      "Version": "2.2.2.1",
+      "Source": "DEV-tools",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "handbrake",
+      "Name": "Handbrake",
+      "Version": "1.11.1",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "inkscape",
+      "Name": "Inkscape",
+      "Version": "1.4.3",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "innoextract",
+      "Name": "Innoextract",
+      "Version": "1.9",
+      "Source": "main",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "innounp",
+      "Name": "Innounp",
+      "Version": "2.67.6",
+      "Source": "main",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "jjazzlab",
+      "Name": "Jjazzlab",
+      "Version": "5.1",
+      "Source": "third",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "kando",
+      "Name": "Kando",
+      "Version": "2.2.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "krokiet",
+      "Name": "Krokiet",
+      "Version": "11.0.1",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "muffon",
+      "Name": "Muffon",
+      "Version": "2.4.0",
+      "Source": "third",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "musescore",
+      "Name": "Musescore",
+      "Version": "4.6.5.253511702",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "obs-studio",
+      "Name": "Obs Studio",
+      "Version": "32.1.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "onthespot",
+      "Name": "Onthespot",
+      "Version": "1.1.4",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "patchcleaner",
+      "Name": "Patchcleaner",
+      "Version": "1.4.2.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "photodemon",
+      "Name": "Photodemon",
+      "Version": "2025.12",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "process-explorer",
+      "Name": "Process Explorer",
+      "Version": "17.1",
+      "Source": "sysinternals",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "processhacker",
+      "Name": "Processhacker",
+      "Version": "2.39",
+      "Source": "third",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "procmon",
+      "Name": "Procmon",
+      "Version": "4.01",
+      "Source": "sysinternals",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "pureref",
+      "Name": "Pureref",
+      "Version": "2.0.3",
+      "Source": "SCrispy",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "qbittorrent",
+      "Name": "Qbittorrent",
+      "Version": "5.1.4",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "rawtherapee",
+      "Name": "Rawtherapee",
+      "Version": "5.12",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "registry-finder",
+      "Name": "Registry Finder",
+      "Version": "2.61.1.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "renamer",
+      "Name": "Renamer",
+      "Version": "7.9",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "rufus",
+      "Name": "Rufus",
+      "Version": "4.13",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "scoop-search",
+      "Name": "Scoop Search",
+      "Version": "2.1.0",
+      "Source": "main",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "sharex",
+      "Name": "Sharex",
+      "Version": "19.0.2",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "shotcut",
+      "Name": "Shotcut",
+      "Version": "26.2.26",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "shutter-encoder",
+      "Name": "Shutter Encoder",
+      "Version": "19.9",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "speedcrunch",
+      "Name": "Speedcrunch",
+      "Version": "0.12",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "sweethome3d",
+      "Name": "Sweethome3d",
+      "Version": "7.5",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "telegram",
+      "Name": "Telegram",
+      "Version": "6.6.2",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "tor-browser",
+      "Name": "Tor Browser",
+      "Version": "15.0.8",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "upscayl",
+      "Name": "Upscayl",
+      "Version": "2.15.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "vcredist2022",
+      "Name": "Vcredist2022",
+      "Version": "14.50.35719.0",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "ventoy",
+      "Name": "Ventoy",
+      "Version": "1.1.10",
+      "Source": "third",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "vscodium",
+      "Name": "Vscodium",
+      "Version": "1.112.01907",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "windows-update-blocker",
+      "Name": "Windows Update Blocker",
+      "Version": "1.8",
+      "Source": "lemon",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "winmerge",
+      "Name": "Winmerge",
+      "Version": "2.16.54.2",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "wiztree",
+      "Name": "Wiztree",
+      "Version": "4.31",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
+      "Id": "zoom",
+      "Name": "Zoom",
+      "Version": "6.6.11.23272",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    }
+  ],
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC) or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages": [
+    {
+      "Id": "SolfegePortable",
+      "Name": "SolfegePortable",
+      "Version": "3.22.2_Rev_2",
+      "Source": "scoop_UGU"
+    }
+  ]
+}

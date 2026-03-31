@@ -6,11 +6,13 @@ Windhawk replaces the need for messy, permanent registry hacks or obscure tweake
 
 ## 📤 How to Backup
 
-Run `scripts/backup_windhawk.ps1` as Administrator.
-Windhawk does not have a native export button. This script automatically pulls your installed mod files from `C:\ProgramData\Windhawk` and exports your customized mod configurations from the Windows Registry.
+Run `backup_windhawk.ps1` as Administrator.
+The script creates a new timestamped `backup_*` folder in this directory, then packages that folder together with `backup_windhawk.ps1` and `restore_windhawk.ps1` into `Windhawk_Latest_Backup.zip`.
+For long-term backup, keep the `Windhawk_Latest_Backup.zip` file.
 
 ## 📥 How to Restore
 
 1. Install the Windhawk application on the fresh Windows setup.
-2. Run `scripts/restore_windhawk.ps1` as Administrator.
-   This script stops the Windhawk background service, injects your backed-up registry settings and mod files, and restarts the service so your tweaks take effect immediately.
+2. Extract [`Windhawk_Latest_Backup.zip`](./Windhawk_Latest_Backup.zip) into any folder.
+3. Run `restore_windhawk.ps1` as Administrator.
+   The script automatically restores from the newest `backup_*` folder next to it, imports the saved registry settings, copies `ModsSource`, and restarts the Windhawk service.

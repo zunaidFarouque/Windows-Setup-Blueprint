@@ -1,17 +1,15 @@
-# Facebook Messenger (Web-to-App Workaround)
+# Facebook Messenger setup
 
-Facebook has discontinued Messenger's direct web app mode.  
-This setup uses a lightweight launcher script so Messenger opens like an installed app (without a full native install), loading `messenger.com` in an app-style window.
+## Why this setup?
+
+Facebook no longer provides the old Messenger app-style flow directly, so this setup uses a lightweight launcher to open `messenger.com` like a standalone app window.
 
 ## System-wide Setup
 
-1. Go to `Shortcut asset/`.
-2. Locate `MessengerAppOpener(OK).vbs`.
-3. Create a shortcut of this `.vbs` file in the Windows Start Menu.
-4. Pin that shortcut for quick access (Start / taskbar).
-5. Use provided icon files for better feel.
-
-After this, launch Messenger from the pinned shortcut as your system-wide entry point.
+1. Create a shortcut to [`Shortcut_asset/MessengerAppOpener(OK).vbs`](<Shortcut_asset/MessengerAppOpener(OK).vbs>) .
+2. Put that shortcut in the Start Menu or pin it to Start/taskbar.
+3. Use provided [icon file](Shortcut_asset/Messenger.ico) for better feel.
+4. Use that shortcut as the main system-wide way to open Messenger.
 
 ## Recommended Privacy Extension
 
@@ -23,4 +21,3 @@ Useful features:
 - Blocks the **Seen** indicator
 - Blocks the **Typing...** indicator
 - Supports anonymous story viewing
-

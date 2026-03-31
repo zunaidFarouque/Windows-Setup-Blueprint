@@ -6,6 +6,7 @@
 | **Inkscape**        | scoop_UGU      | Vector graphics editing for logos and scalable assets.                      |
 | **Krita**           | scoop_UGU      | Digital painting and illustration toolkit.                                  |
 | **draw.io Desktop** | scoop_UGU      | Diagramming for flowcharts, maps, and architecture visuals.                 |
+| **PureRef**         | scoop_UGU      | Reference-board canvas for visual inspiration and planning.                 |
 
 ## Font Management
 

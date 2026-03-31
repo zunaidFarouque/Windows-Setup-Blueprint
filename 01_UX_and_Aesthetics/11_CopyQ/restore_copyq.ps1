@@ -1,8 +1,19 @@
 # restore_copyq.ps1
-$repoConfigDir = "$PSScriptRoot\config-files"
-$copyqAppdata = "$env:APPDATA\copyq"
+$copyqAppdata = Join-Path $env:APPDATA "copyq"
+$backupDir = Get-ChildItem -Path $PSScriptRoot -Directory -Filter "backup_*" |
+    Sort-Object Name -Descending |
+    Select-Object -First 1
 
-Write-Host "Restoring essential CopyQ configurations..." -ForegroundColor Cyan
+if (-not $backupDir) {
+    Write-Host "No backup_* folder found in $PSScriptRoot" -ForegroundColor Red
+    exit 1
+}
+
+$backupRoot = $backupDir.FullName
+$repoConfigDir = Join-Path $backupRoot "config-files"
+
+Write-Host "Restoring CopyQ configurations..." -ForegroundColor Cyan
+Write-Host "Backup folder: $backupRoot" -ForegroundColor DarkGray
 
 function Wait-CopyQExited {
     param([int]$TimeoutSec = 45)
@@ -28,7 +39,7 @@ if ($copyqCmd) {
 Get-Process -Name "copyq" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 Wait-CopyQExited
 
-# Fresh-install files conflict with restored tab/settings INIs (see CopyQ backup docs: replace the whole config dir).
+# Fresh-install files conflict with restored tab/settings INIs, so replace the whole config dir.
 Remove-Item -LiteralPath $copyqAppdata -Recurse -Force -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Force -Path $copyqAppdata | Out-Null
 
@@ -50,7 +61,7 @@ foreach ($file in $filesToRestore) {
     }
 }
 
-# Clipboard tab data lives under items\; restore when your backup includes it (optional).
+# Clipboard tab data lives under items\; restore when the backup includes it.
 $repoItems = Join-Path $repoConfigDir "items"
 if (Test-Path -LiteralPath $repoItems) {
     Copy-Item -LiteralPath $repoItems -Destination (Join-Path $copyqAppdata "items") -Recurse -Force
