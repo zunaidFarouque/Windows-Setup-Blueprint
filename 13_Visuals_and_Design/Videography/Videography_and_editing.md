@@ -14,9 +14,9 @@
 
 | Software            | Install Method | What it does / Why I need it                                |
 | ------------------- | -------------- | ----------------------------------------------------------- |
-| **HandBrake**       | PortableApps   | Video transcoding with quality and size control.            |
-| **OBS Studio**      | PortableApps   | Screen capture and recording for tutorials or logs.         |
+| **HandBrake**       | scoop_UGU      | Video transcoding with quality and size control.            |
+| **OBS Studio**      | scoop_UGU      | Screen capture and recording for tutorials or logs.         |
 | **Shutter Encoder** | UniGetUI       | Fast transcoding, rewrapping, and utility batch operations. |
-| **Shotcut**         | PortableApps   | Timeline video editing for assembled exports.               |
-| **LosslessCut**     | PortableApps   | Near-instant lossless trimming and segment extraction.      |
-| **gMKVExtractGUI**  | PortableApps   | Extract tracks/subtitles/attachments from MKV containers.   |
+| **Shotcut**         | scoop_UGU      | Timeline video editing for assembled exports.               |
+| **LosslessCut**     | scoop_UGU      | Near-instant lossless trimming and segment extraction.      |
+| **gMKVExtractGUI**  | scoop_UGU      | Extract tracks/subtitles/attachments from MKV containers.   |

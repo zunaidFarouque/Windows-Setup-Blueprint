@@ -2,7 +2,7 @@
 
 | Software      | Install Method | What it does / Why I need it                                  |
 | ------------- | -------------- | ------------------------------------------------------------- |
-| **DebugView** | PortableApps   | Captures native Windows debug output (DBG/OutputDebugString). |
+| **DebugView** | scoop_UGU      | Captures native Windows debug output (DBG/OutputDebugString). |
 
 ## Diffing
 

@@ -24,11 +24,11 @@ WinMerge settings I use:
 
 ## Listening music
 
-| Software                                                                  | Install Method                                          | What it does / Why I need it |
-| ------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------- |
+| Software                                                        | Install Method                                          | What it does / Why I need it |
+| --------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------- |
 | [foobar2000](Foobar_&_Deskband_Controls/1._foobar2000_Setup.md) | Manual (D)                                              | Play local downloaded songs. |
-| **Harmony Music**                                                         | [Manual (D)](https://github.com/anandnet/Harmony-Music) | Play and Download songs.     |
-| **Muffon**                                                                | [UniGetUI (D)](https://muffon.netlify.app/)             | Discover new music.          |
+| **Harmony Music**                                               | [Manual (D)](https://github.com/anandnet/Harmony-Music) | Play and Download songs.     |
+| **Muffon**                                                      | [UniGetUI (D)](https://muffon.netlify.app/)             | Discover new music.          |
 
 ## Lyrics management
 
@@ -66,8 +66,7 @@ In SongBook Pro (Android), I sync lyrics to Google Drive and keep periodic full 
 
 ## Social media
 
-| Software                                              | Install Method   | What it does / Why I need it                                                         |
-| ----------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------ |
-| [FB Messenger](13_FB_Messenger/fb_messenger.md) | Manual (D)       | Messenger app: opens messenger.com as a standalone window. See repo guide for setup. |
-| **Telegram**                                          | PortableApps (D) | Secure messaging with multi-device sync and channels.                                |
-
+| Software                                        | Install Method | What it does / Why I need it                                                         |
+| ----------------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
+| [FB Messenger](13_FB_Messenger/fb_messenger.md) | Manual (D)     | Messenger app: opens messenger.com as a standalone window. See repo guide for setup. |
+| **Telegram**                                    | scoop_UGU (D)  | Secure messaging with multi-device sync and channels.                                |

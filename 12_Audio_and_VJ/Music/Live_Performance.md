@@ -16,7 +16,7 @@
 
 | Software     | Install Method                      | What it does / Why I need it                        |
 | ------------ | ----------------------------------- | --------------------------------------------------- |
-| **AutoDrum** | PortableApps                        | Drum pattern creation and rhythm sketching.         |
+| **AutoDrum** | scoop_UGU                           | Drum pattern creation and rhythm sketching.         |
 | **TaalMala** | [Manual](https://www.taalmala.com/) | Indian rhythm accompaniment and tala practice tool. |
 
 # ADD THESE

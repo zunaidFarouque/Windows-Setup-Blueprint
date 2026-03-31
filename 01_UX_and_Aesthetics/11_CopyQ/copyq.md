@@ -49,8 +49,8 @@ When setting up a new Windows machine, follow these steps to instantly restore y
 To instantly compare your last two clipboard entries using WinMerge and CopyQ:
 
 1. **Install WinMerge**  
-   It’s recommended to install [WinMerge](https://winmerge.org/) using PortableApps.com for portability.
-  configure according to the guide here: DIFF: Compare and merge
+    It’s recommended to install [WinMerge](https://winmerge.org/) using scoop_UGU.com for portability.
+   configure according to the guide here: DIFF: Compare and merge
 
 2. **Open CopyQ Commands Window**
    - Launch CopyQ.
@@ -69,7 +69,7 @@ execute('winmergeu', '/e', '/x', '/u', '/fl', '/dl', 'item1', '/dr', 'item2', na
 - If you installed WinMerge in a custom location, replace `'winmergeu'` with the full path to the `winmergeu.exe` executable. For example:
 
 ```
-execute('C:/PortableApps/WinMerge/WinMergePortable.exe', '/e', '/x', '/u', '/fl', '/dl', 'item1', '/dr', 'item2', name1, name2)
+execute('C:/scoop_UGU/WinMerge/WinMergePortable.exe', '/e', '/x', '/u', '/fl', '/dl', 'item1', '/dr', 'item2', name1, name2)
 ```
 
 - Save your changes.

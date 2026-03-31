@@ -39,8 +39,8 @@ TODO: Add VST Plugins (still incomplete)
 
 | Software                                               | Install Method | What it does / Why I need it                  |
 | ------------------------------------------------------ | -------------- | --------------------------------------------- |
-| **[Audacity](https://www.audacityteam.org/download/)** | PortableApps   | Quick audio recording, trimming, and cleanup. |
-| **TAudioConverter**                                    | PortableApps   | Batch audio format conversion utility.        |
+| **[Audacity](https://www.audacityteam.org/download/)** | scoop_UGU      | Quick audio recording, trimming, and cleanup. |
+| **TAudioConverter**                                    | scoop_UGU      | Batch audio format conversion utility.        |
 
 ## Routing / Audio System
 
@@ -88,5 +88,5 @@ TODO: Add VST Plugins (still incomplete)
 
 | Software        | Install Method | What it does / Why I need it               |
 | --------------- | -------------- | ------------------------------------------ |
-| **MuseScore**   | PortableApps   | Music notation editing and score playback. |
-| **GNU Solfege** | PortableApps   | Ear training for intervals and pitch.      |
+| **MuseScore**   | scoop_UGU      | Music notation editing and score playback. |
+| **GNU Solfege** | scoop_UGU      | Ear training for intervals and pitch.      |

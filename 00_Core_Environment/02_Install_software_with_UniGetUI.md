@@ -37,9 +37,48 @@ Open UniGetUI Settings and make sure WinGet, Chocolatey, and Scoop are installed
    scoop bucket add dodorz https://github.com/dodorz/scoop
    scoop bucket add ACooper81 https://github.com/ACooper81/scoop-apps
    scoop bucket add rivy https://github.com/rivy/scoop-bucket
-   scoop bucket add portableApps https://github.com/p8rdev/scoop-portableapps
+   scoop bucket add scoop_UGU https://github.com/p8rdev/scoop-scoop_UGU
    scoop bucket add DEV-tools https://github.com/anderlli0053/DEV-tools
+   scoop bucket add SCrispy https://github.com/Koalhack/SCrispyBucket
+   scoop bucket add 257-notPublic https://github.com/gdm257/scoop-257
    scoop install main/7zip main/innounp main/dark
+   ```
+
+## Reconnect Existing Setup (After OS Reinstall)
+
+If you reinstalled Windows but your `D:\_installed\scoop` folder is still intact, **do not** run the First-Run Setup. Run this sequence to resurrect your apps, rebuild your Start Menu shortcuts, and restore your system variables without redownloading anything.
+
+1. Open PowerShell and run the environment restore script:
+
+   ```powershell
+   # Allow PowerShell scripts
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+   # Point Windows to your existing Scoop folder
+   $env:SCOOP='D:\_installed\scoop'
+   [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+
+   # Inject Scoop into your system PATH
+   $userPath = [Environment]::GetEnvironmentVariable('PATH', 'User')
+   if ($userPath -notmatch 'D:\\_installed\\scoop\\shims') {
+       $newPath = "$userPath;D:\_installed\scoop\shims"
+       [Environment]::SetEnvironmentVariable('PATH', $newPath, 'User')
+       $env:PATH = "$env:PATH;D:\_installed\scoop\shims"
+   }
+   ```
+
+2. Scan the D: drive and rebuild all application shims and Windows shortcuts:
+
+   ```powershell
+   scoop reset *
+   ```
+
+3. Recreate your PowerShell profile and inject the fast-search hook:
+
+   ```powershell
+   if (!(Test-Path $PROFILE)) { New-Item -Type File -Path $PROFILE -Force }
+   Add-Content -Path $PROFILE -Value '. ([ScriptBlock]::Create((& scoop-search --hook | Out-String)))'
+   . $PROFILE
    ```
 
 # Things to install (UniGetUI + manual system tools)

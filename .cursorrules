@@ -7,7 +7,7 @@ You are assisting with the "Windows 10 Setup Blueprint" repository. When generat
 
 2. **Linking Rules within Tables:**
    - **Column 1 (Software):** If there is a local README or configuration folder for this specific software, the software name MUST be a markdown link pointing to that local directory. If no local config exists, bold the text.
-   - **Column 2 (Install Method):** Specify how the app is installed (e.g., UniGetUI, Scoop, PortableApps, or Manual). Append the drive footprint in parentheses only if needed, but for `PortableApps` do NOT add any drive letter. If the method is "Manual", the word "Manual" (and the drive indicator, if used) MUST be a markdown hyperlink to the official download URL/website URL.
+   - **Column 2 (Install Method):** Specify how the app is installed (e.g., UniGetUI, Scoop, scoop_UGU, or Manual). Append the drive footprint in parentheses only if needed, but for `scoop_UGU` do NOT add any drive letter. If the method is "Manual", the word "Manual" (and the drive indicator, if used) MUST be a markdown hyperlink to the official download URL/website URL.
    - **Column 3 (What/Why):** Keep descriptions under two sentences. Be direct.
 
 3. **Category Rows (visual hierarchy):** If you group software inside a single table, insert category separator rows using this exact pattern:
