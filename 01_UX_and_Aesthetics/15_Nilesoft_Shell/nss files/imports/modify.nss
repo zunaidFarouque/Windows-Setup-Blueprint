@@ -9,7 +9,8 @@ modify(type="recyclebin" where=window.is_desktop and this.id==id.empty_recycle_b
 modify(find="unpin*" pos="bottom" menu="Pin/Unpin")
 modify(find="pin*" pos="top" menu="Pin/Unpin")
 
-modify(where=this.id==id.copy_as_path menu="file manage")
+// modify(where=this.id==id.copy_as_path menu="file manage")
+remove(where=this.id==id.copy_as_path)
 modify(type="dir.back|drive.back" where=this.id==id.customize_this_folder pos=1 sep="top" menu="file manage")
 
 modify(where=str.equals(this.name, ["open in terminal", "open linux shell here"]) || this.id==id.open_powershell_window_here
@@ -32,3 +33,4 @@ modify(mode=mode.multiple
 		id.print
 	)
 	pos=1 menu=title.more_options)
+

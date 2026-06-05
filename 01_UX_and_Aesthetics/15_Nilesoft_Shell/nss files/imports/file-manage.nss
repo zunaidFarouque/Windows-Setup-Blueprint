@@ -16,12 +16,14 @@
 	item(mode="single" type="file" title="Change extension" image=\uE0B5 cmd=if(input("Change extension", "Type extension"),
 		io.rename(sel.path, path.join(sel.dir, sel.file.title + "." + input.result))))
 
+	/* NOT USING THIS THING
 	menu(separator="after" image=\uE290 title=title.select)
 	{
 		item(title="All" image=icon.select_all cmd=command.select_all)
 		item(title="Invert" image=icon.invert_selection cmd=command.invert_selection)
 		item(title="None" image=icon.select_none cmd=command.select_none)
 	}
+	*/
 
 	item(type='file|dir|back.dir|drive' title='Take ownership' image=[\uE194,#f00] admin
 		cmd args='/K takeown /f "@sel.path" @if(sel.type==1,null,"/r /d y") && icacls "@sel.path" /grant *S-1-5-32-544:F @if(sel.type==1,"/c /l","/t /c /l /q")')
@@ -58,6 +60,7 @@
 		item(title='Unregister' admin cmd='regsvr32.exe' args='/u @sel.path.quote' invoke="multiple")
 	}
 
+	/* NOT USING
 	menu(mode="single" type='back' expanded=true)
 	{
 		menu(separator="before" title='New Folder' image=icon.new_folder)
@@ -75,6 +78,7 @@
 			item(title='HTML' cmd=io.file.create('@(dt).html', "<html>\n\t<head>\n\t</head>\n\t<body>Hello World!\n\t</body>\n</html>"))
 		}
 	}
+	*/
 
 	item(where=!wnd.is_desktop title=title.folder_options image=icon.folder_options cmd=command.folder_options)
 	

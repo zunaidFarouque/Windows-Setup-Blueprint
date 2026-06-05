@@ -11,13 +11,12 @@ remove(find="Browse with FastStone")
 // // // // // Move "New folder with selection" into the "File manage" group
 
 modify(find="New folder with selection" menu="File manage" image=icon.new_folder)
-
-
+modify(find="TeraCopy*" pos="bottom" menu="File manage")
 
 // // // // // GROUPING Archiving Tools
 
 // Create a new sub-menu
-menu(title="Archiving Tools" image=\uE186) { }
+menu(title="Archiving Tools" image=\uE0AA) { }
 
 // Move existing third-party items into that sub-menu
 modify(find="NanaZip" menu="Archiving Tools")
@@ -81,3 +80,4 @@ menu(title='System Maintenance' sep='top' image=\uE0F3 where=sel.raw=='::{645FF0
 // // // // TASKBAR THINGS
 
 remove(type="taskbar" find=title.desktop)
+
