@@ -15,14 +15,14 @@ modify(find="TeraCopy*" pos="bottom" menu="File manage")
 
 // // // // // GROUPING Archiving Tools
 
-// Create a new sub-menu
-menu(title="Archiving Tools" image=\uE0AA) { }
+// Create a new sub-menu (mode=multiple so it appears for multi-select too)
+menu(mode="multiple" title="Archiving Tools" image=\uE0AA) { }
 
 // Move existing third-party items into that sub-menu
-modify(find="NanaZip" menu="Archiving Tools")
-modify(find="7-Zip" menu="Archiving Tools")
-modify(find="WinRAR" menu="Archiving Tools")
-modify(find="Extract All..." menu="Archiving Tools")
+modify(mode=mode.multiple find="NanaZip" menu="Archiving Tools")
+modify(mode=mode.multiple find="7-Zip" menu="Archiving Tools")
+modify(mode=mode.multiple find="WinRAR" menu="Archiving Tools")
+modify(mode=mode.multiple find="Extract All..." menu="Archiving Tools")
 
 
 
