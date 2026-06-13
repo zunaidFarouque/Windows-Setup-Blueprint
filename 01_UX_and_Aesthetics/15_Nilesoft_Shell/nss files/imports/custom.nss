@@ -45,7 +45,13 @@ menu(title='Open in...'
 		cmd='C:\Program Files\Everything 1.5a\Everything.exe' 
 		args='-search "@sel.path "')
 		
+	item(title='Open in EzShare' 
+		image=\uE26B 
+		cmd='ezshare' 
+		args='"@sel.dir"')
+		
 	separator()
+	
 	
 	// 2. Terminals
 	$tip_run_admin=["\xE1A7 Press SHIFT key to run " + this.title + " as administrator", tip.warning, 1.0]
