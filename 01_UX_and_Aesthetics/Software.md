@@ -11,7 +11,7 @@ Related guides:
 - [Portable ecosystem quick start](10_Portable_Ecosystem/Portable_Ecosystem.md)
 - [CopyQ setup (my commands and WinMerge integration)](11_CopyQ/copyq.md)
 - [foobar2000 setup with Deskband Controls](12_Foobar_&_Deskband_Controls/1._foobar2000_Setup.md)
-- [FB Messenger setup (Custom Shortcut)](13_FB_Messenger/fb_messenger.md)
+- [Browser setup](13_Browser_setup/browser_setup.md) — Edge profiles/gestures and FB Messenger
 
 ## Typing and text workflow
 
@@ -76,12 +76,20 @@ WinMerge settings I use:
 | **Microsoft To Do**                 | UniGetUI                                           | Quick task capture and sync.                               |
 
 
+## Browsers
+
+
+| Software | Install Method | What it does / Why I need it |
+| -------- | -------------- | ---------------------------- |
+| [Microsoft Edge](13_Browser_setup/edge.md) | Preinstalled | Daily browser; profile pinning and mouse-gesture defaults in repo guide. |
+
+
 ## Social media
 
 
 | Software                                        | Install Method | What it does / Why I need it                                                         |
 | ----------------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
-| [FB Messenger](13_FB_Messenger/fb_messenger.md) | Manual (D)     | Messenger app: opens messenger.com as a standalone window. See repo guide for setup. |
+| [FB Messenger](13_Browser_setup/FB_Messenger/fb_messenger.md) | Manual (D)     | Messenger app: opens messenger.com as a standalone window. See repo guide for setup. |
 | **Telegram**                                    | scoop_UGU (D)  | Secure messaging with multi-device sync and channels.                                |
 
 

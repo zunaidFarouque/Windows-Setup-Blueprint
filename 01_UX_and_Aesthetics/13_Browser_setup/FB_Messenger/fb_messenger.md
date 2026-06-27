@@ -21,3 +21,9 @@ Useful features:
 - Blocks the **Seen** indicator
 - Blocks the **Typing...** indicator
 - Supports anonymous story viewing
+
+## Navigation
+
+- [← Browser setup](../browser_setup.md)
+- [Microsoft Edge setup](../edge.md)
+- [UX hub](../../Software.md)

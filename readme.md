@@ -25,7 +25,7 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
    - [Portable ecosystem quick start](01_UX_and_Aesthetics/10_Portable_Ecosystem/Portable_Ecosystem.md)
    - [CopyQ setup](01_UX_and_Aesthetics/11_CopyQ/copyq.md)
    - [foobar2000 setup](01_UX_and_Aesthetics/12_Foobar_&_Deskband_Controls/1._foobar2000_Setup.md)
-   - [FB Messenger setup](01_UX_and_Aesthetics/13_FB_Messenger/fb_messenger.md)
+   - [Browser setup](01_UX_and_Aesthetics/13_Browser_setup/browser_setup.md)
 
 3. **Domain‑specific stacks (by folder)**
    - `11_GIS_and_Academic/`:
@@ -49,7 +49,7 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
 ## Repository map (high level)
 
 - `00_Core_Environment/` – Baseline OS setup, WinUtil runbook, UniGetUI/system installs, and Windhawk configs.
-- `01_UX_and_Aesthetics/` – UX hub, portable ecosystem quick start, CopyQ, Foobar/Deskband, Messenger, and other desktop enhancements.
+- `01_UX_and_Aesthetics/` – UX hub, portable ecosystem quick start, CopyQ, Foobar/Deskband, browser setup (Edge, Messenger), and other desktop enhancements.
 - `11_GIS_and_Academic/` – GIS, mapping, and academic/research software stacks.
 - `12_Audio_and_VJ/` – Music production, live performance, and VJ/VFX tools.
 - `13_Visuals_and_Design/` – Photography, videography, design, and architecture workflows.
