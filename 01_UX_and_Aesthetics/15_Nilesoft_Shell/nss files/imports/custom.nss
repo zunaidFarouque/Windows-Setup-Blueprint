@@ -30,6 +30,8 @@ modify(mode=mode.multiple find="Extract All..." menu="Archiving Tools")
 
 modify(find="Scan with Microsoft Defender" menu="More options")
 modify(find="Blip" menu="More options")
+modify(find="Move to OneDrive" menu="More options")
+modify(find="Troubleshoot compatibility" menu="More options")
 
 
 // // // // // // LAUNCH MENU (Requires holding SHIFT to appear)
