@@ -13,8 +13,9 @@ Facebook no longer provides the old Messenger app-style flow directly, so this s
 
 ## Recommended Privacy Extension
 
-Install **ESUIT | Un Seen for Facebook™** (Chrome extension):  
-[https://chromewebstore.google.com/detail/esuit-un-seen-for-faceboo/fgmiepijfchkhchobiopcemoajoedkkm](https://chromewebstore.google.com/detail/esuit-un-seen-for-faceboo/fgmiepijfchkhchobiopcemoajoedkkm)
+Install **Ghostify | Hide Seen, Typing & Story Views** (Chrome extension):  
+GitHub: https://github.com/Hendrizzzz/Ghostify \
+Chrome Web Store: [https://chromewebstore.google.com/detail/ghostify-hide-seen-typing/flpnibonbhdmnpgflnbemgghghhblmpm](https://chromewebstore.google.com/detail/flpnibonbhdmnpgflnbemgghghhblmpm)
 
 Useful features:
 
