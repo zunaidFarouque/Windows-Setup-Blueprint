@@ -38,7 +38,8 @@ modify(find="Troubleshoot compatibility" menu="More options")
 
 menu(title='Open in...'
 	type='dir|back.dir|drive|back.drive|desktop'
-	where=(key.shift() and sel.count <= 1)
+	vis=key.shift()
+	where=(sel.count <= 1)
 	image=\uE0AB)
 {
 	// 1. Search
@@ -64,19 +65,15 @@ menu(title='Open in...'
 
 	separator()
 
-	// 3. Code Editors
-	$vs_devenv='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
-
+	// 3. Code Editors 
 	item(title='VSCodium' image=[\uE272, #2FA0CE] cmd='codium' args='"@sel.path"' window=cmd.hidden)
 	item(title='Cursor' image=\uE17A cmd='cursor' args='"@sel.path"' window=cmd.hidden)
-	item(where=path.exists(vs_devenv)
-		title='Open with Visual Studio'
-		image=vs_devenv
-		cmd=vs_devenv
-		args='"@sel.path"'
-		window=cmd.hidden)
+
+	$vs_devenv='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
+	item(where=path.exists(vs_devenv) title='Open with Visual Studio' image=vs_devenv cmd=vs_devenv args='"@sel.path"')
 }
 
+// Added manually in open in option.
 remove(find="Open with Visual Studio*")
 
 
