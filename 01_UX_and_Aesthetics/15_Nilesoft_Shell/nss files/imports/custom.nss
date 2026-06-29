@@ -36,40 +36,45 @@ modify(find="Troubleshoot compatibility" menu="More options")
 
 // // // // // // LAUNCH MENU (Requires holding SHIFT to appear)
 
-menu(title='Open in...' 
-	type='dir|back.dir|drive|back.drive|desktop' 
-	where=(key.shift() and sel.count <= 1) 
-	image=\uE0AB) 
+menu(title='Open in...'
+	type='dir|back.dir|drive|back.drive|desktop'
+	where=(key.shift() and sel.count <= 1)
+	image=\uE0AB)
 {
 	// 1. Search
-	item(title='Search with Everything' 
-		image='C:\Program Files\Everything 1.5a\Everything.exe' 
-		cmd='C:\Program Files\Everything 1.5a\Everything.exe' 
+	item(title='Search with Everything'
+		image='C:\Program Files\Everything 1.5a\Everything.exe'
+		cmd='C:\Program Files\Everything 1.5a\Everything.exe'
 		args='-search "@sel.path "')
-		
-	item(title='Open in EzShare' 
-		image=\uE26B 
-		cmd='ezshare' 
+
+	item(title='Open in EzShare'
+		image=\uE26B
+		cmd='ezshare'
 		args='"@sel.dir"')
-		
+
 	separator()
-	
-	
+
 	// 2. Terminals
 	$tip_run_admin=["\xE1A7 Press SHIFT key to run " + this.title + " as administrator", tip.warning, 1.0]
 	$has_admin=key.shift() or key.rbutton()
-	
+
 	item(title=title.command_prompt tip=tip_run_admin admin=has_admin image cmd='cmd.exe' args='/K TITLE Command Prompt &ver& PUSHD "@sel.dir"')
 	item(title=title.windows_powershell admin=has_admin tip=tip_run_admin image cmd='powershell.exe' args='-noexit -command Set-Location -Path "@sel.dir\."')
 	item(where=package.exists("WindowsTerminal") title=title.Windows_Terminal tip=tip_run_admin admin=has_admin image='@package.path("WindowsTerminal")\WindowsTerminal.exe' cmd='wt.exe' arg='-d "@sel.path\."')
-	
+
 	separator()
-	
+
 	// 3. Code Editors
 	item(title='VSCodium' image=[\uE272, #2FA0CE] cmd='codium' args='"@sel.path"' window=cmd.hidden)
 	item(title='Cursor' image=\uE17A cmd='cursor' args='"@sel.path"' window=cmd.hidden)
+	item(title='Open with Visual Studio'
+		image='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
+		cmd='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
+		args='"@sel.path"')
 }
 
+// Keep VS entry out of normal menu; show it only inside "Open in..." on Shift+right-click
+remove(find="Open with Visual Studio" where=not(keys.shift()))
 
 
 // // // // RECYCLE BIN THINGS
