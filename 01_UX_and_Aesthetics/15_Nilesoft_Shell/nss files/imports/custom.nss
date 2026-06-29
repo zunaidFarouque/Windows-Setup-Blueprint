@@ -65,16 +65,19 @@ menu(title='Open in...'
 	separator()
 
 	// 3. Code Editors
+	$vs_devenv='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
+
 	item(title='VSCodium' image=[\uE272, #2FA0CE] cmd='codium' args='"@sel.path"' window=cmd.hidden)
 	item(title='Cursor' image=\uE17A cmd='cursor' args='"@sel.path"' window=cmd.hidden)
-	item(title='Open with Visual Studio'
-		image='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
-		cmd='C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe'
-		args='"@sel.path"')
+	item(where=path.exists(vs_devenv)
+		title='Open with Visual Studio'
+		image=vs_devenv
+		cmd=vs_devenv
+		args='"@sel.path"'
+		window=cmd.hidden)
 }
 
-// Keep VS entry out of normal menu; show it only inside "Open in..." on Shift+right-click
-remove(find="Open with Visual Studio" where=not(keys.shift()))
+remove(find="Open with Visual Studio*")
 
 
 // // // // RECYCLE BIN THINGS

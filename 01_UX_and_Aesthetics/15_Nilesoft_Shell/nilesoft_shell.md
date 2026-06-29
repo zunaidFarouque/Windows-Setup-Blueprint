@@ -115,7 +115,7 @@ Contents:
 | ------- | ----- | ----- |
 | Search | Search with Everything | Needs [Everything](https://www.voidtools.com/) at `C:\Program Files\Everything 1.5a\Everything.exe`; runs `-search "@sel.path "`. |
 | Terminals | Command Prompt, Windows PowerShell, Windows Terminal | **Shift** (or right-click where applicable) elevates via `admin=has_admin` and shows a warning tip. CMD/PowerShell open in `@sel.dir`; WT uses `wt.exe -d "@sel.path\."` when the `WindowsTerminal` package exists. |
-| Editors | VSCodium, Cursor | `codium` / `cursor` on `"@sel.path"`, hidden console window. |
+| Editors | VSCodium, Cursor, Visual Studio | `codium` / `cursor` on `"@sel.path"`, hidden console window. Visual Studio appears only when the configured `devenv.exe` path exists. |
 
 ### **System Maintenance** (Recycle Bin only)
 
@@ -143,6 +143,7 @@ Install or PATH-adjust these before expecting every **Open in...** entry to work
 | Windows Terminal (`wt.exe`) | Shift menu → Windows Terminal |
 | VSCodium (`codium` on PATH) | Shift menu → VSCodium |
 | Cursor (`cursor` on PATH) | Shift menu → Cursor |
+| Visual Studio 2022 Community (`devenv.exe`) | Shift menu → Open with Visual Studio |
 | NanaZip / 7-Zip / WinRAR | **Archiving Tools** submenu (entries hidden if not installed) |
 | Microsoft Defender | **More options** → Scan with Microsoft Defender |
 
