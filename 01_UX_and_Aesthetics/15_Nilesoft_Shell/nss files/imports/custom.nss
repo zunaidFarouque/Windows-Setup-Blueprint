@@ -12,7 +12,11 @@ remove(find="Browse with FastStone")
 
 modify(find="New folder with selection" menu="File manage" image=icon.new_folder)
 modify(find="TeraCopy*" pos="bottom" menu="File manage")
-modify(find="File Converter*" menu="File manage")
+
+remove(find='File Converter' where=not(keys.shift()))
+modify(where=keys.shift() find="File Converter*" menu="File manage")
+
+
 
 // // // // // GROUPING Archiving Tools
 
